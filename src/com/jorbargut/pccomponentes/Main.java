@@ -59,12 +59,32 @@ public class Main {
         /**
          * RAM
          */
+        RAM corsair= new RAM();
+        corsair.setId(1);
+        corsair.setBrand("Corsair");
+        corsair.setModel("Vengeance LPX DDR4 3200 PC4-25600");
+        corsair.setMemory("8Gb");
+        corsair.setMaker("Corsair");
 
+        System.out.println(corsair.getBrand());
+        System.out.println(corsair.getModel());
+        System.out.println(corsair.getMaker());
+        System.out.println(corsair.getMemory());
 
         /**
          *HDD o SDD
          */
+        DiscoDuro samsung= new DiscoDuro();
+        samsung.setId(1);
+        samsung.setBrand("980");
+        samsung.setModel("PCIe 3.0 NVMe M.2");
+        samsung.setMemory("1Tb");
+        samsung.setMaker("Samsung");
 
+        System.out.println(samsung.getBrand());
+        System.out.println(samsung.getModel());
+        System.out.println(samsung.getMaker());
+        System.out.println(samsung.getMemory());
 
         /**
          *
