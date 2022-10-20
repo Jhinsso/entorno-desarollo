@@ -43,3 +43,7 @@ public class Main {
 
     }
 }
+/**
+ * TargetaGrafica
+ */
+TargetaGrafica nvidia= new TargetaGrafica
