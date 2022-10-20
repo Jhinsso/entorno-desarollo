@@ -72,7 +72,7 @@ public class Main {
         System.out.println(corsair.getMemory());
 
         /**
-         *HDD o SDD
+         *Disco Duro
          */
         DiscoDuro samsung= new DiscoDuro();
         samsung.setId(1);
@@ -87,7 +87,52 @@ public class Main {
         System.out.println(samsung.getMemory());
 
         /**
-         *
+         *Targeta de Sonido
          */
+        TargetaSonido asus1= new TargetaSonido();
+        asus1.setId(1);
+        asus1.setBrand("Xonar");
+        asus1.setModel("AE Tarjeta de Sonido 7.1 PCIe");
+        asus1.setMaker("Asus");
+
+        System.out.println(asus1.getBrand());
+        System.out.println(asus1.getModel());
+        System.out.println(asus1.getMaker());
+        /**
+         * DVD
+         */
+        DVD hitachi= new DVD();
+        hitachi.setId(1);
+        hitachi.setBrand("Hitachi-LG");
+        hitachi.setModel("GH24NSD5 Grabadora DVD-RW Interna Negra");
+        hitachi.setMaker("Hitachi-LG");
+
+        System.out.println(hitachi.getBrand());
+        System.out.println(hitachi.getModel());
+        System.out.println(hitachi.getMaker());
+        /**
+         * Altavoces
+         */
+        Altavoces tempest= new Altavoces();
+        tempest.setId(1);
+        tempest.setBrand("M20 RGB");
+        tempest.setModel("Master 2.0 Gaming Speakers");
+        tempest.setMaker("Tempest");
+
+        System.out.println(tempest.getBrand());
+        System.out.println(tempest.getModel());
+        System.out.println(tempest.getMaker());
+        /**
+         * Monitor
+         */
+        Monitor lenovo= new Monitor();
+        lenovo.setId(1);
+        lenovo.setBrand("Lenovo");
+        lenovo.setModel("C24-25 23.8\" WLED FullHD FreeSync");
+        lenovo.setMaker("Lenovo");
+
+        System.out.println(lenovo.getBrand());
+        System.out.println(lenovo.getModel());
+        System.out.println(lenovo.getMaker());
     }
 }
