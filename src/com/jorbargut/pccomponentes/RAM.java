@@ -19,5 +19,7 @@ public class RAM {
     public String getModel(){return model;}
     public void setModel(String model){this.model=model;}
     public String getMemory(){return memory;}
+    public void setMemory(String memory){this.memory=memory;}
+    public String getMaker(){return maker;}
     public void setMaker(String maker){this.maker=maker;}
 }

@@ -51,6 +51,11 @@ public class Main {
          nvidia.setModel("GTX 3090");
          nvidia.setMemory("8Gb");
          nvidia.setMaker("Intel");
+
+        System.out.println(nvidia.getBrand());
+        System.out.println(nvidia.getModel());
+        System.out.println(nvidia.getMaker());
+        System.out.println(nvidia.getMemory());
         /**
          * RAM
          */

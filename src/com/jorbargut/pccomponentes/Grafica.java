@@ -7,7 +7,6 @@ public class Grafica {
     private Integer id;
     private String brand;
     private String model;
-    private String size;
     private String memory;
     private String maker;
 
@@ -18,12 +17,10 @@ public class Grafica {
     public void  setId(Integer id){this.id = id;}
     public String getBrand(){return brand;}
     public void setBrand(String brand){this.brand = brand;}
-    public String getSize(){return size;}
-    public void setSize(String size){this.size = size;}
     public String getModel(){return model;}
     public void setModel(String model){this.model = model;}
-    public String setMemory(){return memory; }
+    public String getMemory(){return memory; }
     public void setMemory(String memory){this.memory = memory;}
-    public String setMaker(){return maker;}
+    public String getMaker(){return maker;}
     public void setMaker(String maker) {this.maker = maker;}
 }
