@@ -41,14 +41,28 @@ public class Main {
         System.out.println(asus.getFabricante());
         System.out.println(asus.getDimension());
 
+
+        /**
+         * Grafica
+         */
+         Grafica nvidia= new Grafica();
+         nvidia.setId(1);
+         nvidia.setBrand("Nvidia");
+         nvidia.setModel("GTX 3090");
+         nvidia.setMemory("8Gb");
+         nvidia.setMaker("Intel");
+        /**
+         * RAM
+         */
+
+
+        /**
+         *HDD o SDD
+         */
+
+
+        /**
+         *
+         */
     }
 }
-/**
- * TargetaGrafica
- */
-Grafica nvidia= new Grafica;
-nvidia.setId(1);
-nvidia.setBrand("Nvidia");
-nvidia.setModel("GTX 3090");
-nvidia.setMemory("8Gb");
-nvidia.setMaker("Intel")
