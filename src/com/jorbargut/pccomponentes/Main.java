@@ -134,5 +134,53 @@ public class Main {
         System.out.println(lenovo.getBrand());
         System.out.println(lenovo.getModel());
         System.out.println(lenovo.getMaker());
+        /**
+         * Teclado
+         */
+        Teclado razer= new Teclado();
+        razer.setId(1);
+        razer.setBrand("Razer");
+        razer.setModel("Ornata Chroma Hibrido");
+        razer.setMaker("Razer");
+
+        System.out.println(razer.getBrand());
+        System.out.println(razer.getModel());
+        System.out.println(razer.getMaker());
+        /**
+         * Raton
+         */
+        Teclado razer1= new Teclado();
+        razer1.setId(1);
+        razer1.setBrand("Razer");
+        razer1.setModel("Ornata Chroma Hibrido");
+        razer1.setMaker("Razer");
+
+        System.out.println(razer1.getBrand());
+        System.out.println(razer1.getModel());
+        System.out.println(razer1.getMaker());
+        /**
+         * Ventilador
+         */
+        Ventilador cooler= new Ventilador();
+        cooler.setId(1);
+        cooler.setBrand("Cooler");
+        cooler.setModel("Cold Chroma Max RGB");
+        cooler.setMaker("Cooler");
+
+        System.out.println(cooler.getBrand());
+        System.out.println(cooler.getModel());
+        System.out.println(cooler.getMaker());
+        /**
+         *Torre
+         */
+        Ventilador msi= new Ventilador();
+        msi.setId(1);
+        msi.setBrand("MSI");
+        msi.setModel("Smart Black Max3000");
+        msi.setMaker("MSI");
+
+        System.out.println(msi.getBrand());
+        System.out.println(msi.getModel());
+        System.out.println(msi.getMaker());
     }
 }
