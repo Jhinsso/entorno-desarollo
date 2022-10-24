@@ -41,7 +41,6 @@ public class Main {
         System.out.println(asus.getFabricante());
         System.out.println(asus.getDimension());
 
-
         /**
          * Grafica
          */

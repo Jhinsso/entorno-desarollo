@@ -7,4 +7,8 @@ public class PCSetUp {
     private Grafica grafica;
     private RAM RAM;
     private DiscoDuro discoDuro;
+    private ArrayList<Memory> memories = new ArrayList<>();
+
+    public PlacaBase();
+
 }
